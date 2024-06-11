@@ -6,19 +6,19 @@ public class AboutMe2 {
     	
         //criando o objeto scanner
     	
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         
         System.out.println("Digite seu nome");
-        String nome = scanner.next();
+        String nome = sc.next();
         
         System.out.println("Digite seu sobrenome");
-        String sobrenome = scanner.next();
+        String sobrenome = sc.next();
 
         System.out.println("Digite sua idade");
-        int idade = scanner.nextInt();
+        int idade = sc.nextInt();
         
         System.out.println("Digite sua altura");
-        double altura = scanner.nextDouble();
+        double altura = sc.nextDouble();
 
         
         //imprimindo os dados obtidos pelo usuario
